@@ -1,0 +1,63 @@
+.section {
+    flex: 0 0 600px;
+}
+
+.scroll {
+    overflow-y: auto;
+    max-height: 464px;
+    scrollbar-width: thin;
+    scrollbar-color: #8585AD #2F2F37;
+    padding: 0;
+    list-style: none;
+}
+
+.scroll::-webkit-scrollbar {
+    background-color: #2F2F37;
+    width: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #8585AD;
+}
+
+.scroll > :first-child {
+    margin-top: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.ingredient {
+    background: var(--background);
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.total-icon {
+    transform: scale(1.5);
+    transform-origin: top left;
+    width: 36px;
+    height: 32px;
+}
+
+.mt-2 {
+  margin-top: 2px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    margin-left: 3px;
+    margin-right: 2px;
+  }
+  
+  .card-image {
+    width: 240px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+  }
+  
+  .card-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+  }
+  
+  .card-title {
+    height: 48px;
+    text-align: center;
+  }
+  
+  .text-type_digits-default {
+    margin-right: 2px;
+  }
+  
+  

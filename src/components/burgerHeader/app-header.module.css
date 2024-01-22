@@ -1,0 +1,35 @@
+.header {
+    background: var(--background);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 1920px;
+    border: 2px solid black; /* Ширина границы 2px, цвет черный */
+}
+
+.section {
+    display: flex;
+    width: var(--width-outer);
+    margin: 0 auto;
+}
+
+.icons {
+    flex: 1 0 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftHorizont {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.logo {
+    flex: 0 0 content;
+}
+
+.rightHorizont {
+    flex: 1 0 100px;
+    display: flex;
+    justify-content: flex-end;
+}
