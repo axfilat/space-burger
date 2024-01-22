@@ -1,0 +1,31 @@
+.section {
+    flex: 0 0 600px;
+  }
+  
+  .list {
+    overflow-y: auto;
+    max-height: 660px;
+    scrollbar-color: #8585AD #2F2F37;
+    scrollbar-width: thin;
+  }
+  
+  .list::-webkit-scrollbar {
+    background-color: #2F2F37;
+    width: 8px;
+  }
+  
+  .list::-webkit-scrollbar-thumb {
+    background-color: #8585AD;
+  }
+  
+  .list :last-child {
+    margin-bottom: 0;
+  }
+  
+  .group-content {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
