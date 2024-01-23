@@ -1,0 +1,12 @@
+.burger {
+    margin: 0 auto;
+    width: var(--width-outer);
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
