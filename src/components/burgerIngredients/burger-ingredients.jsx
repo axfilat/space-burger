@@ -30,8 +30,8 @@ function BurgerIngredients({ data }) {
           <div key={typeIndex}>
             <h2 className="text text_type_main-medium mt-2" ref={headers[type]}>{names[type]}</h2>
             <ul className={styles['group-content']}>
-              {groups[type].map((item, index) => (
-                <BurgerIngredientsItem title={item.name} price={item.price} img={item.image} key={type + index} />
+              {groups[type].map((item) => (
+                <BurgerIngredientsItem title={item.name} price={item.price} img={item.image} key={item._id} />
               ))}
             </ul>
           </div>

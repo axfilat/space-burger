@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { dataPropTypes } from '../../utils/dataPropTypes';
 import styles from './burger-ingredients-item.module.css';
 import { CurrencyIcon } from '@ya.praktikum/react-developer-burger-ui-components';
 
@@ -17,5 +19,8 @@ function BurgerIngredientsItem({ img, title, price }) {
   );
 }
 
-export default BurgerIngredientsItem;
+BurgerIngredientsItem.propTypes = {
+  data: PropTypes.arrayOf(dataPropTypes.isRequired).isRequired
+};
 
+export default BurgerIngredientsItem;

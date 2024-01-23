@@ -4,14 +4,14 @@ import IconLink from '../icon-link/icon-link';
 
 function AppHeader() {
     return (
-        <header className={`${styles.header} pt-4 pb-4`}> 
-            <section className={styles.section}>
-                <nav className={styles.icons}>
+        <header className={`${styles.header} pt-4 pb-4`}>
+            <main className={styles.section}>
+                <section className={styles.icons}>
                     <ul className={styles.leftHorizont}>
                         <li><IconLink href="/" icon={BurgerIcon} isActive>Конструктор</IconLink></li>
                         <li><IconLink href="/" icon={ListIcon}>Лента заказов</IconLink></li>
                     </ul>
-                </nav>
+                </section>
 
                 <section className={styles.logo}>
                     <Logo />
@@ -20,10 +20,12 @@ function AppHeader() {
                 <section className={styles.rightHorizont}>
                     <IconLink href="/" icon={ProfileIcon}>Личный кабинет</IconLink>
                 </section>
-            </section>
+            </main>
         </header>
     );
 }
+
+
 
 
 export default AppHeader;
