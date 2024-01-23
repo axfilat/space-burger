@@ -11,7 +11,7 @@ const BurgerConstructor = ({ data }) => {
 
   const renderIngredient = (item) => (
     <li className={`${styles['list-item']} mt-4`} key={item.id}>
-      <span className={styles.draggable}><DragIcon type="primary" /></span>
+      <span className={styles.ingredient}><DragIcon type="primary" /></span>
       <ConstructorElement
         text={item.name}
         price={item.price}
@@ -59,4 +59,4 @@ BurgerConstructor.propTypes = {
 };
 
 export default BurgerConstructor;
-
+//
